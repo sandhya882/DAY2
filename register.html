@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./reg response.html" method="post">
+        <label for="username">USERNAME</label><br>
+        <input type="text" id="username" name="uname" required maxlenth="20"><br>
+        <label for="password">PASSWORD</label><br>
+        <input type="password" id="password" name="pwd" required><br>
+        <label for="phno">PHNO</label><br>
+        <input type="tel" id="phno" name="phno" maxlength="10">
+         <input type="submit" value="register">
+        
+        <div>
+        <h3>gender</h3><!--for radio name= should be same for all options-->
+        <label for="male" >Male</label>
+        <input type="radio" id="male" name="gender" value="male" checked><!--checked=takes default option as male-->
+        <label for="female" >Female</label>
+        <input type="radio" id="male" name="gender" value="female">
+        <label for="others" >Male</label>
+        <input type="radio" id="male" name="gender" value="others">
+        </div>
+        <div>
+            <h3>courses</h3>
+            <lable for="java">java</lable>
+            <input type="checkbox" id="java" name="jv" value="java"><br>
+            <label for="c">python</label>
+            <input type="checkbox" id="python" name="python" value="python"><br>
+            <label for="c">c</label>
+            <input type="checkbox" id="c" name="c" value="c">
+        </div>
+    </form>
+</body>
+</html>
